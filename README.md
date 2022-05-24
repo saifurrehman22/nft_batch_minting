@@ -31,3 +31,4 @@ $ npm install
 `$ node ./scripts/mint.js`# nft_batch_minting-
 # nft_batch_minting-
 # nft_batch_minting-
+# nft_batch_minting-
