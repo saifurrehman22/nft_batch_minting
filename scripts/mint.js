@@ -4,7 +4,7 @@ const web3 = new Web3('http://127.0.0.1:7545')
 const nftBuild = require('../build/contracts/NFT.json')
 const nftContract = new web3.eth.Contract(nftBuild.abi, nftBuild.networks[5777].address)
 
-const amountToMint = 5
+const amountToMint = 1
 const gas = 450000
 
 const main = async () => {
@@ -27,10 +27,10 @@ const main = async () => {
 
     console.log(`Total NFTs minted: ${totalMinted.length}\n`)
 
-    for (var i = 0; i < totalMinted.length; i++) {
-        const uri = await nftContract.methods.tokenURI(totalMinted[i]).call()
-        console.log(`Metadata URI for token ${totalMinted[i]}: ${uri}`)
-    }
+    // for (var i = 0; i < totalMinted.length; i++) {
+    //     const uri = await nftContract.methods.tokenURI(totalMinted[i]).call()
+    //     console.log(`Metadata URI for token ${totalMinted[i]}: ${uri}`)
+    // }
 }
 
 main()

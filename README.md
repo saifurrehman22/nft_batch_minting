@@ -30,3 +30,4 @@ $ npm install
 ### 5. Run Batch Script
 `$ node ./scripts/mint.js`# nft_batch_minting-
 # nft_batch_minting-
+# nft_batch_minting-

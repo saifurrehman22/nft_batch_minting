@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@alch/alchemy-web3": "^1.2.4",
     "@openzeppelin/contracts": "^4.4.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
@@ -16,6 +17,9 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.5.4",
+    "node-rest-client-promise": "^3.1.1",
     "web3": "^1.6.1"
   }
 }
