@@ -28,4 +28,4 @@ $ npm install
 `$ truffle migrate --reset`
 
 ### 5. Run Batch Script
-`$ node ./scripts/mint.js`
+`$ node ./scripts/mint.js`# nft_batch_minting-
